@@ -1,4 +1,5 @@
 import Stories from './Stories'
+import Posts from './Posts'
 
 function Feed() {
   return (
@@ -6,9 +7,10 @@ function Feed() {
     md:max-w-3xl xl:grid-cols-3 xl:max-w-6xl mx-auto">
         <section className='col-span-2'>
             <Stories />
+            <Posts />
         </section>
-
-        <section></section>
+        <section>
+        </section>
       
     </main>
   )
